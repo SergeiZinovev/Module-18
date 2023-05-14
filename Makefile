@@ -1,6 +1,6 @@
 SRC = *.cpp
 TARGETPATH = ../build
-TARGET = homework18_12
+TARGET = Module-18_12
 
 all: $(SRC) clean
 	@g++ $(SRC) -o $(TARGETPATH)/$(TARGET)
